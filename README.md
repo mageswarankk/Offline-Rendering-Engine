@@ -1,5 +1,4 @@
-![clear_glass](https://github.com/mageswarankk/offline-rendering-engine/assets/73411210/2b162799-c035-4af0-895e-e339e1725beb)# offline-rendering-engine
-3D Path-Tracing Rendering Engine using Dielectric Microfacet BSDF (with GGX Normal Distribution)
+## 3D Path-Tracing Rendering Engine using Dielectric Microfacet BSDF (with GGX Normal Distribution)
 
 This project was my Final Project for CS190I: Introduction to Offline Rendering taught by Professor Lingqi Yan at UCSB
 
