@@ -1,6 +1,6 @@
 # 3D Path-Tracing Rendering Engine using Dielectric Microfacet BSDF (with GGX Normal Distribution)
 
-This project was my Final Project for CS190I: Introduction to Offline Rendering taught by Professor Lingqi Yan at UCSB
+This project was my Final Project for CS190I: Introduction to Offline Rendering taught by Professor Lingqi Yan
 
 For this project, I created a rendered image by employing path tracing enhanced with multiple importance sampling. The shading effect was achieved through microfacet models, utilizing both the standard microfacet Bidirectional Reflectance Distribution Function (BRDF) for reflective materials, such as iron and gold, and a Bidirectional Scattering Distribution Function (BSDF) to capture both reflectance and transmittance properties. This approach allowed for the realistic simulation of non-conductive materials like glass, air, water, and ice through the implementation of a dielectric BSDF in my rendering engine. This dielectric BSDF combines a BRDF for reflectance and a BTDF (Bidirectional Transmittance Distribution Function) for transmittance, with the interplay between these components governed by the Fresnel Term as determined by Snell’s Law. For microfacet direction sampling, I opted for the GGX distribution, which offers sharper peaks and extended tails, thereby enabling a more nuanced representation of material roughness.
 
