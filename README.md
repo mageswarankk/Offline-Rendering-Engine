@@ -8,10 +8,12 @@ In developing the code for this project, I built upon the framework provided in 
 
 Finally here is my final rendered image, produced in 1080 x 1080 resolution with 128 samples per pixel. It contains two bunny images made of a Dielectric material simulating glass (with index of refraction 1.55) with the smaller bunny being of considerably higher roughness and also tinted in a shade of blue-green using the roughness and attenuation parameter. (Note the colors may be misleading since the light source is not white color - a stylistic choice I made). The walls are produced with lambertian material, and the floor is an iron microfacet material. The walls are derived from the Cornell Box.
 
-Raw Image:
+### Raw Image
+
 ![raw_image](https://github.com/mageswarankk/offline-rendering-engine/assets/73411210/5e9424a9-1677-4a9b-9328-36381dccc865)
 
-Denoised Image:
+### Denoised Image
+
 ![denoised_image](https://github.com/mageswarankk/offline-rendering-engine/assets/73411210/e085abaf-6f8c-459c-86c0-363db04ed4b7)
 
 ### References
