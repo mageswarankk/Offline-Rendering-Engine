@@ -1,0 +1,38 @@
+{
+    errdata = "In file included from src/main.cpp:1:\
+\27[1msrc/muni/material.h:37:10: \27[0m\27[0;1;35mwarning: \27[0m\27[1munused variable '[x, y]' [-Wunused-variable]\27[0m\
+    auto [x, y] = coordinate_system(normal);\
+\27[0;1;32m         ^\
+\27[0m\27[1msrc/muni/material.h:123:11: \27[0m\27[0;1;35mwarning: \27[0m\27[1munused variable 'p_phi' [-Wunused-variable]\27[0m\
+    float p_phi = 0.5f * 0.31830988618379067154f;\
+\27[0;1;32m          ^\
+\27[0m\27[1msrc/muni/material.h:124:11: \27[0m\27[0;1;35mwarning: \27[0m\27[1munused variable 'p_theta' [-Wunused-variable]\27[0m\
+    float p_theta = std::exp(-1.0f * std::pow(std::tan(theta) / roughness, 2))\
+\27[0;1;32m          ^\
+\27[0m\27[1msrc/muni/material.h:141:11: \27[0m\27[0;1;35mwarning: \27[0m\27[1munused variable 'p_phi' [-Wunused-variable]\27[0m\
+    float p_phi = 0.159154943091895335769;\
+\27[0;1;32m          ^\
+\27[0m\27[1msrc/muni/material.h:143:11: \27[0m\27[0;1;35mwarning: \27[0m\27[1munused variable 'p_theta' [-Wunused-variable]\27[0m\
+    float p_theta = std::exp(-1.0f * std::pow(std::tan(theta) / roughness, 2))\
+\27[0;1;32m          ^\
+\27[0m\27[1msrc/muni/material.h:300:11: \27[0m\27[0;1;35mwarning: \27[0m\27[1mvariable 'p_wi_refl' set but not used [-Wunused-but-set-variable]\27[0m\
+    float p_wi_refl = 0.0f;\
+\27[0;1;32m          ^\
+\27[0m\27[1msrc/muni/material.h:301:11: \27[0m\27[0;1;35mwarning: \27[0m\27[1mvariable 'p_wi_tran' set but not used [-Wunused-but-set-variable]\27[0m\
+    float p_wi_tran = 0.0f;\
+\27[0;1;32m          ^\
+\27[0m\27[1msrc/muni/material.h:344:11: \27[0m\27[0;1;35mwarning: \27[0m\27[1munused variable 'f_s' [-Wunused-variable]\27[0m\
+    float f_s = F(wo, m);\
+\27[0;1;32m          ^\
+\27[0mIn file included from src/main.cpp:7:\
+In file included from src/muni/obj_loader.h:7:\
+\27[1msrc/muni/triangle.h:88:21: \27[0m\27[0;1;35mwarning: \27[0m\27[1munused variable 'barycentrics' [-Wunused-variable]\27[0m\
+        const Vec3f barycentrics = Vec3f(U, V, W) * rcp_det;\
+\27[0;1;32m                    ^\
+\27[0mIn file included from src/main.cpp:8:\
+\27[1msrc/muni/ray_tracer.h:227:13: \27[0m\27[0;1;35mwarning: \27[0m\27[1munused function 'any_hit' [-Wunused-function]\27[0m\
+static bool any_hit(Vec3f ray_pos, Vec3f ray_dir, float t_max,\
+\27[0;1;32m            ^\
+\27[0m10 warnings generated.\
+"
+}
