@@ -1,4 +1,4 @@
-## 3D Path-Tracing Rendering Engine using Dielectric Microfacet BSDF (with GGX Normal Distribution)
+# 3D Path-Tracing Rendering Engine using Dielectric Microfacet BSDF (with GGX Normal Distribution)
 
 This project was my Final Project for CS190I: Introduction to Offline Rendering taught by Professor Lingqi Yan at UCSB
 
@@ -13,3 +13,8 @@ Raw Image:
 
 Denoised Image:
 ![denoised_image](https://github.com/mageswarankk/offline-rendering-engine/assets/73411210/e085abaf-6f8c-459c-86c0-363db04ed4b7)
+
+### References
+
+- https://www.cs.cornell.edu/~srm/publications/EGSR07-btdf.pdf
+- https://www.pbr-book.org/3ed-2018/Reflection_Models/Specular_Reflection_and_Transmission#SpecularTransmission
